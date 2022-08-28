@@ -1,0 +1,10 @@
+-@val model: ViewModel
+-@val form: ViewForm
+
+html
+  head
+  body
+    form(method="POST" action={form.action})
+      input(hidden="true" name="$scenario" value={form.scenario})
+      input(name="name" value={form.name})
+      button(type="submit" id="submitbutton" name="$submit" value="ok") Submit

@@ -1,0 +1,10 @@
+<%@ var model: ViewModel %>
+
+<html>
+    <head>
+	<title>HelloTag</title>
+    </head>
+    <body>
+	<p>現在の時刻は<c:datetime>です。</p>
+    </body>
+</html>

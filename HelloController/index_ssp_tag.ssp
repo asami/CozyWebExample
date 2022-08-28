@@ -1,0 +1,8 @@
+<html>
+    <head>
+	<title>HelloController</title>
+    </head>
+    <body>
+	<p><c:value name="a"/></p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<%@ val service: ViewService %>
+
+<html>
+    <head>
+	<title>HelloController</title>
+    </head>
+    <body>
+	<p><%= service.get("a") %></p>
+    </body>
+</html>

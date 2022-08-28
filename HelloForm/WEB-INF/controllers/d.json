@@ -1,0 +1,10 @@
+{
+  "action": "invoke-operation-scenario",
+  "operation": "loopback",
+  "method": "POST",
+  "successView": "index_complete",
+  "errorView": "index_error",
+  "parameters": [{
+    "name": "token"
+  }]
+}

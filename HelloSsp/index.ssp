@@ -1,0 +1,16 @@
+<html>
+    <head>
+	<title>Hello SSP!</title>
+    </head>
+    <body>
+	<h1>Hello SSP!</h1>
+
+	<p>今日は ${new java.util.Date()} です。</p>
+
+	<div style="box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);margin: 15px;padding-left: 10px;border: solid 1px">
+	    <h2>SSP</h2>
+	    <p>SSP(Scala Server Pages)を使うと、JSP的な専用マーキングでHTMLに情報を埋め込むことができます。</p>
+	</div>
+
+    </body>
+</html>

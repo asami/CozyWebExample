@@ -1,0 +1,10 @@
+<%@ var service: ViewService %>
+
+<html>
+    <head>
+	<title>HelloTag</title>
+    </head>
+    <body>
+	<p>現在の時刻は${service.dateTime}です。</p>
+    </body>
+</html>

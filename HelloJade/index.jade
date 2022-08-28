@@ -1,0 +1,14 @@
+html(lang="ja")
+  head
+    title Hello Jade!
+  body
+    h1 Hello Jade!
+    p
+      | 今日は
+      = new java.util.Date()
+      | です。
+    :markdown
+      Jadeを使うとMarkdownで文章を書く事ができます。
+  div(style="box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);margin: 15px;padding-left: 10px;border: solid 1px")
+    h2 Jade
+    p Jade

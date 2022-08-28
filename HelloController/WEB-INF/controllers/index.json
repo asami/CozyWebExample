@@ -1,0 +1,7 @@
+{
+  "action": "property",
+  "properties": [{
+    "name" : "a",
+    "value" : 5
+  }]
+}
